@@ -1,5 +1,5 @@
-variable "AWS_ACCESS_KEY" {}
-variable "AWS_SECRET_KEY" {}
+variable "ACCESS_KEY" {}
+variable "SECRET_KEY" {}
 variable "ECR_REPOSITORY" {}
 variable "AWS_REGION" {}
 #variable "ECS_CLUSTER" {}
