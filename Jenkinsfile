@@ -15,7 +15,11 @@ pipeline {
         stage('Terraform Apply') {
             steps {
                 sh """
-                terraform $action -auto-approve
+                terraform $action -auto-approve \
+		-var 'ECR_REPOSITORY=${ECR_REPOSITORY}' \
+                -var 'AWS_REGION=${AWS_REGION}' \
+                -var 'ACCESS_KEY=${ACCESS_KEY}' \
+                -var 'SECRET_KEY=${SECRET_KEY}'
                 """
             }
         }
