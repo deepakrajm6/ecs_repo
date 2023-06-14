@@ -70,12 +70,7 @@ resource "aws_ecs_task_definition" "task_definition" {
       {"name": "${var.VARNAME2}", "value": "${var.VARVAL2}"},
       {"name": "${var.VARNAME3}", "value": "${var.VARVAL3}"},
       {"name": "${var.VARNAME4}", "value": "${var.VARVAL4}"},
-      {"name": "${var.VARNAME5}", "value": "${var.VARVAL5}"},
-      {"name": "${var.VARNAME6}", "value": "${var.VARVAL6}"},
-      {"name": "${var.VARNAME7}", "value": "${var.VARVAL7}"},
-      {"name": "${var.VARNAME8}", "value": "${var.VARVAL8}"},
-      {"name": "${var.VARNAME9}", "value": "${var.VARVAL9}"},
-      {"name": "${var.VARNAME10}", "value": "${var.VARVAL10}"}
+      {"name": "${var.VARNAME5}", "value": "${var.VARVAL5}"}
     ],
     "portMappings": [
       {
