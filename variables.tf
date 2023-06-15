@@ -28,5 +28,5 @@ variable "SUBNET1" {}
 variable "SUBNET2" {}
 variable "SECURITY_POLICY" {}
 variable "CERTIFICATE_ARN" {}
-variable "ZONE_ID" {}
-variable "RECORD_NAME" {}
+#variable "ZONE_ID" {}
+#variable "RECORD_NAME" {}
