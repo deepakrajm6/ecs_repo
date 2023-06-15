@@ -72,8 +72,6 @@ pipeline {
        		-var 'TARGET_GROUP=${TARGET_GROUP}' \
        		-var 'SECURITY_POLICY=${SECURITY_POLICY}' \
        		-var 'CERTIFICATE_ARN=${CERTIFICATE_ARN}' \
-       		-var 'ZONE_ID=${ZONE_ID}' \
-       		-var 'HOSTED_ZONE=${HOSTED_ZONE}' \
 		-var 'HEALTH_CHECK_PATH=${HEALTH_CHECK_PATH}' \
 		-var 'VPC_ID=${VPC_ID}'
                 """
@@ -111,8 +109,6 @@ pipeline {
                 -var 'TARGET_GROUP=${TARGET_GROUP}' \
                 -var 'SECURITY_POLICY=${SECURITY_POLICY}' \
                 -var 'CERTIFICATE_ARN=${CERTIFICATE_ARN}' \
-                -var 'ZONE_ID=${ZONE_ID}' \
-                -var 'HOSTED_ZONE=${HOSTED_ZONE}' \
 		-var 'HEALTH_CHECK_PATH=${HEALTH_CHECK_PATH}' \
 		-var 'VPC_ID=${VPC_ID}'
                 """
