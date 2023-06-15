@@ -29,8 +29,6 @@ pipeline {
        TARGET_GROUP = "${TARGET_GROUP}"
        SECURITY_POLICY = "${SECURITY_POLICY}"
        CERTIFICATE_ARN = "${CERTIFICATE_ARN}"
-       ZONE_ID = "${ZONE_ID}"
-       HOSTED_ZONE = "${HOSTED_ZONE}"
        HEALTH_CHECK_PATH = "${HEALTH_CHECK_PATH}"
        VPC_ID = "${VPC_ID}"
     }
