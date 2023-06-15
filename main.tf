@@ -193,4 +193,4 @@ resource "aws_lb_listener" "ecs_lb_listener" {
 #  zone_id                = aws_lb.ecs_load_balancer.zone_id
 #  evaluate_target_health = true
 #  }
-}
+#}
