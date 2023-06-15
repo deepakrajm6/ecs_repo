@@ -185,12 +185,12 @@ resource "aws_lb_listener" "ecs_lb_listener" {
 }
 
 ############ resource "aws_route53_record" "ecs_route_53" {
-  zone_id = var.ZONE_ID
-  name    = var.RECORD_NAME
-  type    = "A"
-  alias {
-  name                   = aws_lb.ecs_load_balancer.dns_name
-  zone_id                = aws_lb.ecs_load_balancer.zone_id
-  evaluate_target_health = true
-  }
+#  zone_id = var.ZONE_ID
+#  name    = var.RECORD_NAME
+#  type    = "A"
+#  alias {
+#  name                   = aws_lb.ecs_load_balancer.dns_name
+#  zone_id                = aws_lb.ecs_load_balancer.zone_id
+#  evaluate_target_health = true
+#  }
 }
